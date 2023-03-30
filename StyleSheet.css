@@ -152,8 +152,9 @@ header{
 
 
 footer{
-    position: fixed;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -166,6 +167,7 @@ footer{
     padding-left: 75px;
     margin: 15px 0;
     font-size: larger;
+    margin-top: auto;
 }
 
 .footer-container ul{
@@ -240,4 +242,11 @@ footer{
 
 .grid-item-titel{
     display: inline-block;
+}
+
+
+
+/*Product-Page*/
+.product-page-product-row-img{
+    width: 800px;
 }
