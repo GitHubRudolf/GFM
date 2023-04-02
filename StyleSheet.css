@@ -171,6 +171,7 @@ footer{
 
 .product-grid{
     display: grid;
+
     grid-template-columns: 600px 600px 600px;
     grid-template-rows: 750px;
     gap: 10px;
