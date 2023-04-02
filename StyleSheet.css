@@ -1,37 +1,19 @@
 html{
-    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    min-width: fit-content;
-
-    /*
-    position: relative;
+    width: 100%;
     margin: 0px;
-    min-height: 100%;
-    */
   }
 
-header{
-    /*
-    display: flex;
-    justify-content:center;
-    */
-    /*
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    */
-}
-
-
-/* Test aus VS push*/
 .main-header-container{
     display: flex;
+    flex-grow: 1;
     flex-direction: row;
     justify-content: end;
     align-items: center
@@ -81,29 +63,6 @@ header{
 .main-account input{
     width: 45px;
 }
-
-
-
-/*
-.main-logo{
-    margin-left: auto;
-    margin-right: auto;
-}
-*/
-
-/*
-.header a{
-    margin-left: auto;
-}
-
-#logo-mainpage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 6%;
-}
-
-*/
 
 .site-nav{
     display: flex;
@@ -257,7 +216,6 @@ footer{
 /*Product-Page*/
 
 .product-page-product{
-    
 
 }
 
@@ -265,6 +223,7 @@ footer{
     display: flex;
     padding-left: 25%;
     padding-top: 4%;
+    max-width: 100%;
 }
 
 .product-page-product-column-div{
@@ -300,11 +259,6 @@ footer{
 }
 
 .product-page-product-description{
-    display: inline-block;
-    padding-top: 2%;
-}
-
-.product-page-product-description{
     padding-left: 60px;
 }
 
@@ -334,6 +288,13 @@ footer{
     background-color: #f2f2f2;
     width: 150px;
     height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.product-page-product-description-input:focus{
+    outline: none;
 }
 
 .product-page-product-description-button{
@@ -345,10 +306,25 @@ footer{
     color: white;
     font-size: 20px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .product-page-product-description-a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     color: #32c165;
+}
+
+.product-page-product-description-text{
+    padding-top: 40px;
+}
+
+#product-page-product-description-text-h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#product-page-product-description-text-p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30em;
 }
