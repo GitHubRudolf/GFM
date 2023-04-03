@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<title>Startseite</title>
+<title>Warenkorb</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta content="utf-8" http-equiv="encoding">
 <link href="StyleSheet.css" rel="StyleSheet" type="text/css">
@@ -38,8 +38,35 @@
         </ul>
     </nav>
 
-    <a href="#" id="main-shop">Shop</a>
-    <img id="main-back-img" src="Images/Main_Background.jpg" alt="Background">
+
+    <section class="shopping_cart">
+        <div class="shopping_cart-small-container">
+            <table>
+                <tr>
+                    <th id="shopping_cart-th-product">Produkt</th>
+                    <th>Menge</th>
+                    <th colspan="2">Gesamtsumme</th>
+                </tr>
+                <tr class="shopping_cart-product-row">
+                    <td>
+                        <div class="shopping_cart-info">
+                            <div id="shopping_cart-info-product">
+                                <p>Bio Schoko Müsli</p>
+                                <p id="shopping_cart-info-price">4,99 €</p>
+                            </div>
+                        </div>
+
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>50,00€</td>
+                    <td><a id="shopping_cart-info-remove">remove</a></td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+
+
 
     <footer>
         <div class="footer-container">
