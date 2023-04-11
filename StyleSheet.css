@@ -565,6 +565,10 @@ footer{
     font-size: x-large;
 }
 
+#customer-overview-log-off-button:active{
+    background-color: #46d478;
+}
+
 /*Impressum*/
 
 .imprint-headline{
