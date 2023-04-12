@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bestellbestätigung</title>
+    <title>Login</title>
 <link href="StyleSheet.css" rel="StyleSheet" type="text/css">
 
 </head>
@@ -19,7 +19,6 @@
             <div class="main-cart">
                 <a href="Shopping_Cart.html">
                     <img src="Images/Cart.png" alt="Account_Image">
-                    <!--<input type="image" src="Images/Cart.png" />-->
                 </a>
             </div>
             <div class="main-account">
@@ -29,20 +28,20 @@
             </div>
         </div> 
     </header>
-    <nav class="site-nav">
-        <ul class="links-nav">
-                <li><a href="Startseite.html">Home</a></li>
-                <li><a href="Produktkategorien_Muesli.html">Müsli</a></li>
-                <li><a href="Produktkategorien_Proteinriegel.html">Proteinriegel</a></li>
-                <li><a href="Produktkategorien_Brotaufstrich.html">Brotaufstrich</a></li>
-                <li><a href="Produktkategorien_Getraenk.html">Getränke</a></li>
-        </ul>
-    </nav>
 
-    <div class="order-confirmation">
-        <p>Bestellbestätigung</p>
-        <p>#159</p>
-        <p>Gesamtpreis: 14,97</p> <!--Hier soll Gesamtbetrag der jeweiligen Bestellung übernommen werden-->
+    <div class="login-div">
+          <label class="login-label" for="uname"><b>E-Mail:</b></label>
+          <input class="login-input" type="email" placeholder="mail@mail.de" name="mail" required id="uname">
+        
+         <label class="login-label" for="psw"><b>Passwort:</b></label>
+        <input class="login-input" type="password" placeholder="Passwort" name="psw" required id="psw">
+
+        <a href="Kundenbereich-Übersicht.html">
+         <button class="login-buttonLogin" type="submit"><b>Login</b></button>
+        </a>
+        <a href="Registrierung.html">
+         <button class="login-buttonRegister" type="submit"><b>Registrieren</b></button>
+        </a>
     </div>
 
     <footer>
@@ -53,5 +52,5 @@
             </ul>
         </div>
     </footer>
-</body>
+    </body>
 </html>

@@ -623,3 +623,259 @@ footer{
     font-weight: bold;
     text-align: center;
 }
+
+
+
+/*History*/
+
+.history-section{
+    /*margin-left: 450px;*/
+    margin-left: 15%;
+    width: 950px;
+}
+
+.history-table{
+    background-color: #f2f2f2;
+    border-collapse: collapse; 
+    width: 950px;
+}
+
+.history-info{
+    width: 650px;
+    min-width: 650px;
+}
+
+.history-info-order{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.history-info-order-item{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.history-info-order-price-div{
+    background-color: #32c165;
+}
+
+.history-info-order-price{
+    font-weight: bold;
+}
+
+.history-buttonBack-div{
+    width: 950px;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.history-buttonBack{
+    background-color: #32c165;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+}
+
+.history-buttonBack:active{
+    background-color: #29d465;
+}
+
+.history-order-row{
+    background-color: #f2f2f2;
+    border: solid black 1px;
+}
+
+.history-order-row td{
+    width: 600px;
+}
+
+
+/* Rechnungsadresse und Lieferadresse */
+.address-container{
+    margin: auto;
+}
+
+.address-div-deliver{
+    margin: 35px;
+    background-color: #f2f2f2;
+    padding: 45px ;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.address-div-bill{
+    margin: 35px;
+    background-color: #f2f2f2;
+    padding: 45px ;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.address-input{
+    width: 450px;
+    height: 50px;
+    align-self: center;
+    padding: 12px 8px;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+}
+
+.address-button-div{
+    display: inline-block;
+    vertical-align: bottom;
+    align-items: center;
+}
+
+.address-buttonSave{
+    background-color: #32c165;
+    align-self: center;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-size: medium;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 35px;
+}
+
+.address-buttonSave:active{
+    background-color: #29d465;
+}
+
+.address-label{
+    align-self: center; 
+    display: block;
+    font-weight: normal;
+}
+
+.address-label-header{
+    align-self: center; 
+    display: block;
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+/* Login */
+.login-div{
+    margin: 35px;
+    background-color: #f2f2f2;
+    align-self: center;
+    padding: 45px ;
+}
+
+.login-div a{
+    text-decoration: none;
+}
+
+.login-buttonLogin{
+    background-color: #32c165;
+    align-self: center;
+    margin: 15px 0;
+    width: 450px;
+    height: 50px;
+    color: white;
+    font-size: medium;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+.login-buttonLogin:active{
+    background-color: #29d465;
+}
+
+.login-buttonRegister{
+    background-color: blue;
+    align-self: center;
+    margin: 15px 0;
+    width: 450px;
+    height: 50px;
+    color: white;
+    font-size: medium;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+.login-buttonRegister:active{
+    background-color: rgb(78, 78, 255);
+}
+
+.login-input{
+    width: 450px;
+    height: 50px;
+    align-self: center;
+    padding: 12px 8px;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+}
+
+.login-label{
+    align-self: center; 
+}
+
+/* Registrierung */
+
+.register-div{
+    margin: 35px;
+    background-color: #f2f2f2;
+    align-self: center;
+    padding: 45px ;
+}
+
+.register-div a{
+    text-decoration: none;
+}
+
+.register-input{
+    width: 450px;
+    height: 50px;
+    align-self: center;
+    padding: 12px 8px;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+}
+
+.register-buttonRegister{
+    background-color: blue;
+    align-self: center;
+    margin: 15px 0;
+    width: 450px;
+    height: 50px;
+    color: white;
+    font-size: medium;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+.register-buttonRegister:active{
+    background-color: rgb(80, 80, 255);
+}
+
+.register-label{
+    align-self: center; 
+}

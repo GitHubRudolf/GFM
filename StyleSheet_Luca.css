@@ -1,0 +1,284 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    background-color: #f2f2f2;
+    vertical-align: middle;   
+}
+
+.address-container{
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.main-header-container{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center
+
+}
+
+.main-logo{
+    flex-grow: 1;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 4rem;
+
+}
+
+
+.main-cart{
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 2rem;
+
+}
+
+.main-account{
+    vertical-align: middle;
+    padding-right: 2rem;
+
+}
+
+.main-logo img{
+    width: 140px;
+}
+
+.main-cart img{
+    width: 45px;
+
+}
+
+.main-account img{
+    width: 45px;
+}
+
+.main-cart input{
+    width: 45px;
+
+}
+
+.main-account input{
+    width: 45px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: auto;
+}
+
+.login-div{
+    margin: 35px;
+    background-color: #f2f2f2;
+    align-self: center;
+    padding: 45px ;
+}
+
+.login-buttonLogin{
+    background-color: #32c165;
+    align-self: center;
+    margin: 15px 0;
+    width: 450px;
+    height: 50px;
+    color: white;
+    font-size: medium;
+    display: block;
+}
+
+.login-buttonRegister{
+    background-color: blue;
+    align-self: center;
+    margin: 15px 0;
+    width: 450px;
+    height: 50px;
+    color: white;
+    font-size: medium;
+    display: block;
+}
+
+.login-input{
+    width: 450px;
+    height: 50px;
+    align-self: center;
+    padding: 12px 8px;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-label{
+    align-self: center; 
+}
+
+.register-div{
+    margin: 35px;
+    background-color: #f2f2f2;
+    align-self: center;
+    padding: 45px ;
+}
+
+.register-input{
+    width: 450px;
+    height: 50px;
+    align-self: center;
+    padding: 12px 8px;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.register-buttonRegister{
+    background-color: blue;
+    align-self: center;
+    margin: 15px 0;
+    width: 450px;
+    height: 50px;
+    color: white;
+    font-size: medium;
+    display: block;
+}
+
+.register-label{
+    align-self: center; 
+}
+
+.address-div-deliver{
+    margin: 35px;
+    background-color: #f2f2f2;
+    padding: 45px ;
+    display: inline-block;
+}
+
+.address-div-bill{
+    margin: 35px;
+    background-color: #f2f2f2;
+    padding: 45px ;
+    display: inline-block;
+}
+
+.address-input{
+    width: 450px;
+    height: 50px;
+    align-self: center;
+    padding: 12px 8px;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.address-buttonSave{
+    background-color: #32c165;
+    align-self: center;
+    margin: 15px 0;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-size: medium;
+    display: inline-block;
+}
+
+.address-label{
+    align-self: center; 
+    display: block;
+    font-weight: normal;
+}
+
+.address-label-header{
+    align-self: center; 
+    display: block;
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.history-section{
+    margin-left: 450px;
+}
+
+.history-table{
+    background-color: #f2f2f2;
+}
+
+.history-info{
+    width: 650px;
+    min-width: 650px;
+}
+
+.history-info-order{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.history-info-order-item{
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.history-info-order-price{
+    font-weight: bold;
+}
+
+.history-buttonBack{
+    background-color: #32c165;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    margin-left: 1300px;
+    vertical-align: bottom;
+}
+
+.history-order-row{
+    border: solid black 2px;
+    background-color: #f2f2f2;
+}
+
+.footer-container li{
+    list-style-type: none; 
+    padding-left: 75px;
+    margin: 15px 0;
+    font-size: larger;
+    margin-top: auto;
+}
+
+.footer-container ul{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-container li a{
+    text-decoration: none;
+    color: black;
+}

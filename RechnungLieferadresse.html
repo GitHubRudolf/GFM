@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rechnungsadresse und Lieferadresse </title>
+<link href="StyleSheet.css" rel="StyleSheet" type="text/css">
+
+</head>
+<body>
+    <header>
+        <div class="main-header-container">
+            <div class="main-logo">
+                <a href="Startseite.html">
+                    <img id="logo-mainpage" src="Images/Good_Food_Market_Logo.png" alt="Main_Logo">
+                </a>
+            </div>
+            <div class="main-cart">
+                <a href="Shopping_Cart.html">
+                    <img src="Images/Cart.png" alt="Account_Image">
+                </a>
+            </div>
+            <div class="main-account">
+                <a href="Login.html">
+                    <img src="Images/Account.png" alt="Account_Image">
+                </a>
+            </div>
+        </div> 
+    </header>
+
+    <container class="address-container">
+    <div class="address-div-bill">
+        <label class="address-label-header" for="radress">Rechnungsadresse</label>
+
+        <label class="address-label" for="bvname">Vorname:</label>
+        <input class="address-input" type="text" name="vname" required id="bvname">
+
+        <label class="address-label" for="bnname">Nachname:</label>
+        <input class="address-input" type="text" name="nname" required id="bnname">
+        
+        <label class="address-label" for="bstreet">Strasse:</label>
+        <input class="address-input" type="text" name="street" required id="bstreet">
+
+        <label class="address-label" for="bhnumber">Hausnummer:</label>
+        <input class="address-input" type="number" name="hnumber" required id="bhnumber">
+
+        <label class="address-label" for="bplz">Postleitzahl:</label>
+        <input class="address-input" type="text" name="plz" required id="bplz">
+    </div>
+
+    <div class="address-div-deliver">
+        <label class="address-label-header" for="radress">Lieferadresse</label>
+
+        <label class="address-label" for="dvname">Vorname:</label>
+        <input class="address-input" type="text" name="vname" required id="dvname">
+
+        <label class="address-label" for="dnname">Nachname:</label>
+        <input class="address-input" type="text" name="nname" required id="dnname">
+        
+        <label class="address-label" for="dstreet">Strasse:</label>
+        <input class="address-input" type="text" name="street" required id="dstreet">
+
+        <label class="address-label" for="dhnumber">Hausnummer:</label>
+        <input class="address-input" type="number" name="hnumber" required id="dhnumber">
+
+        <label class="address-label" for="dplz">Postleitzahl:</label>
+        <input class="address-input" type="text" name="plz" required id="dplz">
+    </div>
+
+    <div class="address-button-div">
+        <button class="address-buttonSave" type="submit"><b>Speichern</b></button>
+    </div>
+    <!--<button class="address-buttonSave" type="submit"><b>Speichern</b></button>-->
+</container>
+
+<footer>
+    <div class="footer-container">
+        <ul>
+            <li><a href="Datenschutzerklärung.html">Datenschutzerklärung</a></li>
+            <li><a href="Impressum.html">Impressum</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
