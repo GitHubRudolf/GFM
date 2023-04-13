@@ -81,8 +81,8 @@ body {
 
 .links-nav li{
     display: inline-block;
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
 .links-nav li a{
@@ -156,14 +156,6 @@ footer{
     color: black;
 }
 
-@media only screen and (max-width: 800px) {
-    #main-back-img{
-        display: block;
-
-    }
-}
-
-
 
 @media only screen and (max-width: 800px) {
     #main-shop{
@@ -180,18 +172,27 @@ footer{
         border: 2px solid black;
         padding: 25px 80px;
     }
+
+    #main-back-img{
+        display: block;
+
+    }
 }
 
 /* Produktkategorien */
 
 .product-grid{
     display: grid;
-
+    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+    grid-template-rows: 750px;
+    /*
     grid-template-columns: 500px 500px 500px;
+    */
     grid-template-rows: 750px;
     gap: 6px;
     padding-bottom: 200px;
     justify-content: center;
+    align-content: center;
 }
 
 .grid-item{
@@ -231,12 +232,19 @@ footer{
 
 /*Product-Page*/
 
+.product-page-product{
+    display:inline-flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
 
 .product-page-product-row{
     display: flex;
+    flex-wrap:wrap;
     padding-left: 25%;
     padding-top: 4%;
     max-width: 100%;
+    
 }
 
 .product-page-product-column-div{
@@ -273,7 +281,9 @@ footer{
 }
 
 .product-page-product-description{
-    padding-left: 60px;
+    width: 500px;
+    padding-left: 25px;
+    padding-top: 25px;
 }
 
 .product-page-product-description-h2{
@@ -351,6 +361,7 @@ footer{
 
 .shopping_cart{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin-left: 6%;
     margin-right: auto;
@@ -445,6 +456,21 @@ footer{
     width: 450px;
     height: 450px;
     background-color: #f2f2f2;
+    margin-bottom: 40px;
+
+}
+
+
+@media only screen and (max-width: 1717px){
+
+    .shopping_cart{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .shopping_cart-ordering{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
 
 }
 
@@ -714,6 +740,7 @@ footer{
     padding: 45px ;
     display: inline-block;
     margin-top: 0;
+    margin-left: 8px;
     margin-bottom: 15px;
 }
 
@@ -723,6 +750,7 @@ footer{
     padding: 45px ;
     display: inline-block;
     margin-top: 0;
+    margin-left: 8px;
     margin-bottom: 15px;
 }
 
